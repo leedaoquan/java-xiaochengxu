@@ -1,0 +1,86 @@
+<#--
+/****************************************************
+ * Description: t_sys_image_info的输入页面，包括添加和修改
+ * Copyright:   Copyright (c) 2018
+ * Company:     xjj
+ * @author      zhanghejie
+ * @version     1.0
+ * @see
+	HISTORY
+    *  2018-11-11 zhanghejie Create File
+      <@formgroup title='创建人'>
+	<input type="text" name="userId" value="${imageInfo.userId}" check-type="number">
+   </@formgroup>
+   <@formgroup title='扩展名'>
+	<input type="text" name="extensionName" value="${imageInfo.extensionName}" >
+   </@formgroup>
+   <@formgroup title='创建时间'>
+	<@date name="createDate" dateValue=imageInfo.createDate required="required" default=true/>
+   </@formgroup>
+    <@formgroup title='路径'>
+	<input type="text" name="imgPath" value="${imageInfo.imgPath}" check-type="required">
+   </@formgroup>
+   <@formgroup title='图片大小'>
+	<input type="text" name="imgSize" value="${imageInfo.imgSize}" check-type="number">
+   </@formgroup>
+**************************************************/
+-->
+<#include "/templates/xjj-index.ftl"> 
+
+<@input url="${base}/sys/image/info/save" id=tabId>
+   <input type="hidden" name="id" value="${imageInfo.id}"/>	
+   <@formgroup title='图片'>
+   <div style="width:600px;overflow:scroll"">
+	<img src="${imageInfo.imgUrl}"/>
+   </div>
+   </@formgroup>
+   <@formgroup title='标题'>
+	<input type="text" name="imgTitle" value="${imageInfo.imgTitle}" check-type="required">
+   </@formgroup>
+   <@formgroup title='标签'>
+	 <span id="keywordContainer">
+   	 <#if imageInfo.imgKeywords??>
+	    <#list imageInfo.imgKeywords as key>
+	    	<span>
+	    		<input type="hidden" name="imgKeywords" value="${key}"/>
+	    		<span class="label label-primary">
+	    		${key}
+	    		<i class="ace-icon glyphicon glyphicon-remove-sign removeKey" style="cursor:pointer;"></i>
+	    		</span>
+	    	</span>
+	    </#list>
+	 </#if>
+   	</span>
+	<input type="text" style="width:200px;" id="imgKeyword" placeholder="输入回车添加一个标签">
+   </@formgroup>
+   
+   <@formgroup title='宽度'>
+	<input type="text" name="imgWidth" value="${imageInfo.imgWidth}" check-type="number">
+   </@formgroup>
+   <@formgroup title='高度'>
+	<input type="text" name="imgHeight" value="${imageInfo.imgHeight}" check-type="number">
+   </@formgroup>
+ 
+</@input>
+
+<script>
+	$("#imgKeyword").keydown(function(event){
+	  if(event.keyCode == 13){
+	    var keyword = $(this).val();
+		if(null== keyword || ""==keyword)
+		{
+			return;
+		}
+		$("#keywordContainer").append("<span><input type='hidden' name='imgKeywords' value='"+keyword+"'/><span class='label label-primary'>"+keyword+"<i class='ace-icon glyphicon glyphicon-remove-sign removeKey' style='cursor:pointer;'></i></span>&nbsp;&nbsp;</span>");
+		$(".removeKey").click(function(){
+		  $(this).parent().parent().remove();
+		});
+		
+		$(this).val("");
+	  }
+	});
+	$(".removeKey").click(function(){
+	  $(this).parent().parent().remove();
+	});
+	
+</script>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xjj.wxmall.sys.image.dao.ImageInfoDao">
+	<resultMap id="ImageInfoMap" type="com.xjj.wxmall.sys.image.entity.ImageInfoEntity">
+	    <id column="id" jdbcType="INTEGER" property="id" />
+	    <result column="img_path" jdbcType="VARCHAR" property="imgPath" />
+	    <result column="img_title" jdbcType="VARCHAR" property="imgTitle" />
+	    <result column="img_url" jdbcType="VARCHAR" property="imgUrl" />
+	    <result column="img_keywords" jdbcType="VARCHAR" property="imgKeywords"  typeHandler="com.xjj.framework.mybatis.JsonStringArrayTypeHandler" />
+	    <result column="extension_name" jdbcType="VARCHAR" property="extensionName" />
+	    
+	    <result column="img_size" jdbcType="INTEGER" property="imgSize" />
+	    <result column="img_width" jdbcType="INTEGER" property="imgWidth" />
+	    <result column="img_height" jdbcType="INTEGER" property="imgHeight" />
+	    
+	    <result column="user_id" jdbcType="INTEGER" property="userId" />
+	    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+	</resultMap>
+	
+	<select id="getById" resultMap="ImageInfoMap" parameterType="long">
+		SELECT
+			*
+		FROM
+			t_sys_image_info
+		WHERE
+			id = #{id}
+	</select>
+	
+	<select id="findAll" resultMap="ImageInfoMap">
+		SELECT * FROM t_sys_image_info
+	</select>
+	
+	<insert id="save" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.xjj.wxmall.sys.image.entity.ImageInfoEntity">
+		insert into t_sys_image_info(id,img_path,img_title,img_keywords,img_url,img_size,img_width,img_height,user_id,extension_name,create_date)
+    	values(#{id},#{imgPath},#{imgTitle},#{imgKeywords,jdbcType=VARCHAR,typeHandler=com.xjj.framework.mybatis.JsonStringArrayTypeHandler},#{imgUrl},#{imgSize},#{imgWidth},#{imgHeight},#{userId},#{extensionName},#{createDate})
+	</insert>
+	
+	<update id="update" parameterType="ImageInfoEntity">  
+        UPDATE t_sys_image_info SET 
+             id = #{id},
+             img_path = #{imgPath},
+             img_title = #{imgTitle},
+             img_keywords = #{imgKeywords,jdbcType=VARCHAR,typeHandler=com.xjj.framework.mybatis.JsonStringArrayTypeHandler},
+             img_url = #{imgUrl},
+             img_size = #{imgSize},
+             img_width = #{imgWidth},
+             img_height = #{imgHeight},
+             user_id = #{userId},
+             extension_name = #{extensionName},
+             create_date = #{createDate}
+        WHERE id = #{id};     
+	</update>
+		
+	<delete id="delete" parameterType="long">  
+        DELETE FROM t_sys_image_info WHERE id = #{id}  
+	</delete> 
+	
+	<select id="getCount" resultType="java.lang.Integer">         
+    	select count(id) from t_sys_image_info 
+    	<include refid="com.xjj.framework.dao.CommonDao.queryParam"/>
+	</select> 
+	
+	<select id="findList" resultMap="ImageInfoMap">
+		SELECT * FROM t_sys_image_info
+		<include refid="com.xjj.framework.dao.CommonDao.queryParam"/>
+		<include refid="com.xjj.framework.dao.CommonDao.queryOrder"/>
+	</select>
+	<select id="findPage" resultMap="ImageInfoMap">
+		SELECT
+			*
+		FROM
+			t_sys_image_info
+		<include refid="com.xjj.framework.dao.CommonDao.queryParam"/>
+		<include refid="com.xjj.framework.dao.CommonDao.queryOrder"/>
+		LIMIT #{offset}, #{limit}
+	</select>
+	
+	<select id="findListByColumnValues" resultType="ImageInfoEntity">
+		SELECT * FROM t_sys_image_info
+		where ${column} in
+        <foreach collection="valArr" index="index" item="item" open="(" separator="," close=")">
+              #{item}       
+        </foreach>    
+	</select>
+</mapper>

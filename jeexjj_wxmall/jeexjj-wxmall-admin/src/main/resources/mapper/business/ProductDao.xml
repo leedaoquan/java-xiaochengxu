@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xjj.wxmall.business.product.dao.ProductDao">
+
+	<resultMap id="ProductMap" type="com.xjj.wxmall.business.product.entity.ProductEntity">
+	    <id column="id" jdbcType="INTEGER" property="id" />
+	    <result column="goods_id" jdbcType="INTEGER" property="goodsId" />
+	    <result column="goods_specification_ids" jdbcType="BIGINT" property="goodsSpecificationIds" typeHandler="com.xjj.framework.mybatis.JsonLongArrayTypeHandler" />
+	    <result column="retail_price" jdbcType="DECIMAL" property="retailPrice" />
+	    <result column="goods_number" jdbcType="INTEGER" property="goodsNumber" />
+	    <result column="url" jdbcType="VARCHAR" property="url" />
+	    <result column="add_time" jdbcType="TIMESTAMP" property="addTime" />
+	    <result column="deleted" jdbcType="BIT" property="deleted" />
+	</resultMap>
+
+	<select id="getById" resultMap="ProductMap" parameterType="long">
+		SELECT
+			*
+		FROM
+			t_business_product
+		WHERE
+			id = #{id}
+	</select>
+	
+	<select id="findAll" resultMap="ProductMap">
+		SELECT * FROM t_business_product
+	</select>
+	
+	<insert id="save" useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.xjj.wxmall.business.product.entity.ProductEntity">
+		insert into t_business_product(id,goods_id,goods_specification_ids,goods_number,retail_price,url,add_time,deleted)
+    	values(#{id},#{goodsId},#{goodsSpecificationIds,jdbcType=INTEGER,typeHandler=com.xjj.framework.mybatis.JsonLongArrayTypeHandler},#{goodsNumber},#{retailPrice},#{url},#{addTime},#{deleted})
+	</insert>
+	
+	<update id="update" parameterType="ProductEntity">  
+        UPDATE t_business_product SET 
+             id = #{id},
+             goods_id = #{goodsId},
+             goods_specification_ids = #{goodsSpecificationIds,jdbcType=INTEGER,typeHandler=com.xjj.framework.mybatis.JsonLongArrayTypeHandler},
+             goods_number = #{goodsNumber},
+             retail_price = #{retailPrice},
+             url = #{url},
+             add_time = #{addTime},
+             deleted = #{deleted}
+        WHERE id = #{id};     
+	</update>
+		
+	<delete id="delete" parameterType="long">  
+        DELETE FROM t_business_product WHERE id = #{id}  
+	</delete> 
+	
+	<select id="getCount" resultType="java.lang.Integer">         
+    	select count(id) from t_business_product 
+    	<include refid="com.xjj.framework.dao.CommonDao.queryParam"/>
+	</select> 
+	
+	<select id="findList" resultMap="ProductMap">
+		SELECT * FROM t_business_product
+		<include refid="com.xjj.framework.dao.CommonDao.queryParam"/>
+		<include refid="com.xjj.framework.dao.CommonDao.queryOrder"/>
+	</select>
+	<select id="findPage" resultMap="ProductMap">
+		SELECT
+			t.*,
+			(select name from t_business_goods where id=t.goods_id) goods_name
+		FROM
+			t_business_product t
+		<include refid="com.xjj.framework.dao.CommonDao.queryParam"/>
+		<include refid="com.xjj.framework.dao.CommonDao.queryOrder"/>
+		LIMIT #{offset}, #{limit}
+	</select>
+	<select id="findPageByParam" resultMap="ProductMap">
+		SELECT
+			p.*,
+			g.name goods_name
+		FROM
+			t_business_product p,t_business_goods g
+		WHERE p.goods_id=g.id
+		<if test="null != categoryId and 0 != categoryId">   
+		 and ( g.category_id = #{categoryId} or g.category_id in (select id from t_business_category where parent_id=#{categoryId} and status='valid'))
+		</if>
+		<if test="null != goodsName and '' != goodsName">   
+		 and g.name like #{goodsName} 
+		</if>
+		LIMIT #{offset}, #{limit}
+	</select>
+	
+	<select id="findListByColumnValues" resultMap="ProductMap">
+		SELECT * FROM t_business_product
+		where ${column} in
+        <foreach collection="valArr" index="index" item="item" open="(" separator="," close=")">
+              #{item}       
+        </foreach>    
+	</select>
+	
+	<select id="countSkuByParam" resultType="java.lang.Integer">         
+    	select count(id) from t_business_product where goods_id=#{goodsId} and goods_specification_ids like #{specIds}
+	</select> 
+	
+</mapper>
