@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jeexjj-wxmall-admin:war">
+    <output-path>$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jeexjj-wxmall-admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jeexjj-wxmall-admin-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jeexjj-wxmall-admin:war exploded" />
+    </root>
+  </artifact>
+</component>

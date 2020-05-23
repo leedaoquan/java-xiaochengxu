@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="449761be-6ff9-4a39-8fb7-85f7d447c30a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeexjj_wxmall/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeexjj_wxmall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/jeexjj-wxmall-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/ActionEnter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/ConfigManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/PathFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/ActionMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/ActionMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/ActionState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/AppInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/AppInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/BaseState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/FileType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/FileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/MIMEType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/MIMEType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/MultiState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/define/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/hunter/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/hunter/ImageHunter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/upload/Base64Uploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/upload/BinaryUploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/upload/StorageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/baidu/ueditor/upload/Uploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/DictConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/backstage/index/web/BackstageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/passport/web/PassportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/security/SecurityCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/security/SecurityContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/common/security/dto/RoleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/XJJConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/configuration/ConfigLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/configuration/ConfigLoaderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/configuration/ConfigUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/configuration/FilePropertyConfigLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/configuration/FileXmlConfigLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/dao/CommonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/dao/XjjDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/entity/EntitySupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/exception/DataAccessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/exception/PermissionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/exception/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/exception/XjjHandlerExceptionResolver$ReturnType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/exception/XjjHandlerExceptionResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/freemarker/FreeMarkerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/freemarker/FreemarkerStaticModels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/interceptor/I18NInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/interceptor/NoCacheInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/interceptor/TabInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/interceptor/UrlInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/json/XjjJson$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/json/XjjJson$MessageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/json/XjjJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/mybatis/JsonIntegerArrayTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/mybatis/JsonLongArrayTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/mybatis/JsonNodeTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/mybatis/JsonStringArrayTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/PrivilegeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/PrivilegeService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/PrivilegeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/SecurityConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecEdit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecPrivilege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecPrivileges.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/annotations/SecView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/dto/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/dto/Privilege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/dto/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/dto/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/interceptor/PermissionRole$Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/interceptor/PermissionRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/security/interceptor/SecurityInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/service/XjjService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/service/XjjServiceSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/spring/LocalizedTextContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/spring/SpringBeanLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/spring/StaticLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/BCrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/BCryptPasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/BigDecimalUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ClassUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/CsvUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/DateTimeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/EncryptUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/Excel2007Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/FreemarkerUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/FreemarkerUtils$FreemarkerModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/FreemarkerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ImageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/JFreeChartUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/JacksonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/JacksonUtil$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/JacksonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/LocalizedTextUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MailUtils$HTMLMailMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MailUtils$MailMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MailUtils$MailMessageSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MailUtils$SendEmailThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MailUtils$TextMailMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MailUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MathUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/MemoryUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/RandomUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ReflectUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/RegexUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ScaleSpiderWebPlot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/StringTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/SyncUtils$Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/SyncUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ValidatorUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/utils/ZipUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/ManagerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/SpringControllerSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/converter/StringDateConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/Pagination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/QueryParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/QueryParameterMethodArgumentResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/SqlOperEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/ValidationMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/XJJParameter$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/framework/web/support/XJJParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/ad/dao/AdDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/ad/entity/AdEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/ad/service/AdService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/ad/service/impl/AdServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/ad/web/AdController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/brand/dao/BrandDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/brand/entity/BrandEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/brand/service/BrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/brand/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/brand/web/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/category/dao/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/category/entity/CategoryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/category/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/category/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/category/web/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/coupon/dao/CouponDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/coupon/entity/CouponEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/coupon/service/CouponService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/coupon/service/impl/CouponServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/coupon/web/CouponController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/dao/GoodsAttributeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/dao/GoodsSpecificationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/entity/GoodsAttributeEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/entity/GoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/entity/GoodsSpecificationEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/GoodsAttributeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/GoodsSpecificationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/impl/GoodsAttributeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/impl/GoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/impl/GoodsSpecificationServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/impl/GoodsSpecificationServiceImpl$VO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/service/impl/GoodsSpecificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/web/GoodsAttributeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/web/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/goods/web/GoodsSpecificationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/issue/dao/IssueDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/issue/entity/IssueEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/issue/service/IssueService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/issue/service/impl/IssueServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/issue/web/IssueController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/keyword/dao/KeywordDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/keyword/entity/KeywordEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/keyword/service/KeywordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/keyword/service/impl/KeywordServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/keyword/web/KeywordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/product/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/product/entity/ProductEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/product/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/product/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/product/web/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/shop/dao/ShopDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/shop/entity/ShopEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/shop/service/ShopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/shop/service/impl/ShopServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/shop/web/ShopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/topic/dao/TopicDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/topic/entity/TopicEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/topic/service/TopicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/topic/service/impl/TopicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/business/topic/web/TopicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/address/dao/AddressDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/address/entity/AddressEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/address/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/address/service/impl/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/address/web/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/dao/BuyerCouponDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/dao/BuyerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/entity/BuyerCouponEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/entity/BuyerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/service/BuyerCouponService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/service/BuyerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/service/impl/BuyerCouponServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/service/impl/BuyerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/web/BuyerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/buyer/web/BuyerCouponController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/cart/dao/CartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/cart/entity/CartEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/cart/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/cart/service/impl/CartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/cart/web/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/collect/dao/CollectDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/collect/entity/CollectEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/collect/service/CollectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/collect/service/impl/CollectServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/collect/web/CollectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/comment/dao/CommentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/comment/entity/CommentEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/comment/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/comment/service/impl/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/comment/web/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/footprint/dao/FootprintDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/footprint/entity/FootprintEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/footprint/service/FootprintService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/footprint/service/impl/FootprintServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/footprint/web/FootprintController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/dao/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/dao/OrderGoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/entity/OrderEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/entity/OrderGoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/service/OrderGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/service/impl/OrderGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/web/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/order/web/OrderGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/region/dao/RegionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/region/entity/RegionEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/region/service/RegionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/region/service/impl/RegionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/region/web/RegionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/search/dao/SearchHistoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/search/entity/SearchHistoryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/search/service/SearchHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/search/service/impl/SearchHistoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/customer/search/web/SearchHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/dao/MenuDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/dao/RoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/dao/RolePrivilegeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/dao/UserRoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/entity/MenuEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/entity/RoleEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/entity/RolePrivilegeEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/entity/UserRoleEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/entity/XjjUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/MenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/RolePrivilegeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/UserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/impl/MenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/impl/RolePrivilegeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/web/ManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/web/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/web/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/web/RolePrivilegeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sec/web/UserRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/GCConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/dao/CodeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/entity/ColumnInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/entity/TableInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/generator/GCGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/generator/GCModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/service/CodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/service/impl/CodeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/code/web/CodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/dict/dao/DictDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/dict/entity/DictItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/dict/service/DictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/dict/service/impl/DictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/dict/web/DictController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/dao/ImageInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/entity/ImageInfoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/service/ImageInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/service/impl/ImageInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/web/ImageInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/web/ImageUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/image/web/UeditorUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/dao/XfileDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/entity/XfileEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/service/XfileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/service/impl/XfileServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/web/FileInfo$FileInfoNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/web/FileInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/web/FileUploaderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/sys/xfile/web/XfileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/util/OrderHandleOption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/util/OrderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/util/PropertiesUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/annotation/LoginUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/annotation/support/LoginUserHandlerMethodArgumentResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/config/UseConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/config/WxConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/config/WxProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/json/WxJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/service/UserInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/token/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/token/UserToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/token/UserTokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/token/WxLoginInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/util/CharUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/util/IpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxAddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxAuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxBaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxBrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxCartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxCatalogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxCollectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxCommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxFootprintController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxHomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxIndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxRegionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxSearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/classes/com/xjj/wxmall/wx/web/WxTopicController.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/src/main/java/com/xjj/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-55" />
+    <option name="y" value="405" />
+    <option name="width" value="1460" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xjj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-xiaochengxu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-xiaochengxu" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj_wxmall" type="462c0819:PsiDirectoryNode" />
+              <item name="jeexjj-wxmall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jeexjj-wxmall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjj.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="449761be-6ff9-4a39-8fb7-85f7d447c30a" name="Default Changelist" comment="" />
+      <created>1590204644690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590204644690</updated>
+      <workItem from="1590204646143" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="247000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="MyBatis Log" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.3295129" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/src/main/java/com/xjj/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/src/main/java/com/xjj/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
