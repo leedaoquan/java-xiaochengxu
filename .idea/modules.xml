@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-xiaochengxu.iml" filepath="$PROJECT_DIR$/.idea/java-xiaochengxu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/jeexjj-wxmall-admin.iml" filepath="$PROJECT_DIR$/jeexjj_wxmall/jeexjj-wxmall-admin/jeexjj-wxmall-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeexjj-wxmall-admin/jeexjj-wxmall-admin.iml" filepath="$PROJECT_DIR$/jeexjj-wxmall-admin/jeexjj-wxmall-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jeexjj_wxmall.iml" filepath="$PROJECT_DIR$/.idea/jeexjj_wxmall.iml" />
     </modules>
   </component>
 </project>
